@@ -5,6 +5,9 @@ $fa-css-prefix          : fa !default;
 $fa-style               : 900 !default;
 $fa-style-family        : "Font Awesome 6 Free" !default;
 
+$fa-icon-property        : --fa;
+$fa-duotone-icon-property: --fa--fa;
+
 $fa-display             : inline-block !default;
 
 $fa-fw-width            : fa-divide(20em, 16) !default;

@@ -1,9 +1,8 @@
 /******************************************************************************
  * Content
  ******************************************************************************/
-
 body {
-  padding-bottom: 70px;
+  padding-bottom: 170px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -37,6 +36,25 @@ body.sticky-bottom-footer {
     width: 100%;
   }
 }
+.viewport-header {
+  position: relative;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: none;
+  width: 80vw;
+  left: 10%;
+  height: 40vh;
+  overflow: auto;
+  background: rgba(black, 0.66);
+  color: white;
+  position: relative;
+  padding: 1rem;
+}
 
 // TODO: redefine content layout.
 
@@ -51,3 +69,4 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
