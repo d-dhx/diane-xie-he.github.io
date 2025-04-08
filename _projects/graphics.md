@@ -43,13 +43,14 @@ In this phase, I developed a simplified rasterization pipeline from scratch to c
   </div>
 </div>
 
-
 This phase gave me a strong foundation in how modern graphics pipelines are structured — from triangle setup to pixel output — and laid the groundwork for more advanced features like ray tracing and global illumination.
 
 ---
+
 ## Phase 2: MeshEdit — Building the Half-Edge Mesh System
 
 In this phase, I implemented an interactive mesh editor with support for:
+
 - Face splitting
 - Edge flipping
 - Edge collapsing
@@ -62,6 +63,7 @@ This involved building the **half-edge data structure**, and writing code that c
 ## Phase 3: Path Tracer — Physically-Based Offline Rendering
 
 I implemented a Monte Carlo path tracer with:
+
 - BSDF sampling
 - Russian roulette termination
 - Importance sampling (lights & hemispheres)

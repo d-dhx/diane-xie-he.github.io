@@ -12,33 +12,38 @@
 
 .toc {
   display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally within each row */
-    justify-content: space-evenly; /* Distribute items evenly across the container */
-    height: 100vh; /* Make the container fill the viewport height */
-    width: 100%; /* Span the full width of the viewport */
-    margin: 0;
-    padding: 0;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally within each row */
+  justify-content: space-evenly; /* Distribute items evenly across the container */
+  height: 100vh; /* Make the container fill the viewport height */
+  width: 100%; /* Span the full width of the viewport */
+  margin: 0;
+  padding: 0;
 }
 
 .toc-item {
   text-align: center;
-    font-size: 24px;
-    padding: 20px;
-    text-decoration: none;
-    color: #fff;
-    background: #666666;
-    border-radius: 5px;
-    row-gap: 10px;
-    width: 80%; /* Adjust the width of each item to make them visually balanced */
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  font-size: 24px;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #666666;
+  border-radius: 5px;
+  row-gap: 10px;
+  width: 80%; /* Adjust the width of each item to make them visually balanced */
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
 }
 .toc img {
   width: 100px;
   height: 100px;
   border-radius: 10px;
   object-fit: cover;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 .toc-item:hover {
   background-color: #666666;
@@ -253,7 +258,7 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
-  border-radius: 32px; 
+  border-radius: 32px;
   overflow: hidden;
   padding: 0;
   margin: 0;
@@ -267,21 +272,21 @@ ul.task-list input[type="checkbox"] {
 
   .card-img {
     width: 110%;
-    height: 300px; 
+    height: 300px;
     object-fit: cover;
-    object-position: center; 
+    object-position: center;
     display: block;
   }
 
   .card-title {
     color: var(--global-text-color);
     text-align: center;
-    font-family: 'Playfair Display', serif; 
+    font-family: "Playfair Display", serif;
     margin-top: 1rem;
   }
 
   .card-text {
-    font-family: 'Work Sans', sans-serif; 
+    font-family: "Work Sans", sans-serif;
     font-size: 1rem;
     color: #333;
     text-align: start;
@@ -302,18 +307,17 @@ ul.task-list input[type="checkbox"] {
     gap: 40px;
     padding: 60px;
   }
-
 }
 
 .card-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 20px;
   height: 2px;
   background: #111;
   margin: 0.5rem auto 0;
 }
-//gallery 
+//gallery
 .gallery-item img {
   width: 100%;
   height: auto;
@@ -327,7 +331,6 @@ ul.task-list input[type="checkbox"] {
   color: #333;
 }
 
-
 // Citation
 
 .citation,
@@ -339,7 +342,7 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 120%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 
   .more-info {
     margin-bottom: 5px;
@@ -390,7 +393,7 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
-  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 800;
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
@@ -399,7 +402,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .navbar .dropdown-menu {
-  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 800;
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
@@ -418,7 +421,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .dropdown-item {
-  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 800;
   color: var(--global-text-color);
 

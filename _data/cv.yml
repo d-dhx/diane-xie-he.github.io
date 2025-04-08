@@ -16,13 +16,13 @@
     - tag: Math
       description: 21-325 Probability
     - tag: Cog Sci
-      description: 
+      description:
         - 85-419 Introduction to Parallel Distributed Processing
         - 33-121 Physics I for Science Students
     - tag: GenEd
-      description: 
+      description:
         - 36-200 Reasoning with Data
-    - tag: BXA 
+    - tag: BXA
       description: 52-392 Seminar III:Deconstructing Disciplines
     - tag: PE
       description: 69-151 Introduction to Yoga
@@ -31,7 +31,7 @@
   type: time_table
   contents:
     - tag: CS
-      description: 
+      description:
         - '<a href="https://www.cs.cmu.edu/afs/cs/academic/class/15210-f24/www-f24/" target="_blank">15-210 Parallel and Sequential Data Structures and Algorithm</a>'
         - 16-385 Computer Vision
         - 05-413 Human Factor
@@ -45,7 +45,7 @@
 - title: Summer 2024
   type: time_table
   contents:
-    - tag: CS 
+    - tag: CS
       description: '<a href="https://www.cs.cmu.edu/afs/cs/academic/class/15213-m24/www/" target="_blank">15-213 Introduction to Computer Systems</a>'
     - tag: Math
       description: 21-241 Matrices and Linear Transformations
@@ -56,7 +56,7 @@
   type: time_table
   contents:
     - tag: CS
-      description: 
+      description:
         - '<a href="https://www.cs.cmu.edu/~15150/" target="_blank">15-150 Principles of Functional Programming </a>'
         - '<a href="https://www.pandanotes.org/servers/cs251s24/" target="_blank"> 15-251 Great Ideas in Theoretical Computer Science </a>'
     - tag: Math
@@ -65,7 +65,7 @@
       description: 48-355 Perspective
     - tag: Cog Sci
       description: 85-211 Cognitive Psychology
-    - tag: BXA 
+    - tag: BXA
       description: 52-291 BXA Seminar II:Transferring Knowledge
 
 - title: Fall 2023
@@ -74,11 +74,11 @@
     - tag: CS
       description: 15-122 Principles of Imperative Computation
     - tag: Math
-      description: 21-127 Concepts of Mathematics 
+      description: 21-127 Concepts of Mathematics
     - tag: Archi
       description: 48-356 Color Drawing
     - tag: GenEd
-      description:  67-220 Digital Accessibility - Ensuring Universal Access to the Information Society
+      description: 67-220 Digital Accessibility - Ensuring Universal Access to the Information Society
 
 - title: Spring 2023
   type: time_table
@@ -88,20 +88,20 @@
     - tag: Math
       description: 21-122 Integration and Approximation
     - tag: Archi
-      description: 
+      description:
         - 48-240 History of World Architecture I
         - 62-123 Digital Media II
         - 62-126 Drawing II
     - tag: GenEd
       description: 76-101 Interpretation and Argument
-    - tag: BXA 
+    - tag: BXA
       description: 52-190 BXA Seminar I:Building the Wunderkammer
 
 - title: Fall 2022
   type: time_table
   contents:
     - tag: Archi
-      description: 
+      description:
         - 48-100 Architecture Design Studio:POIESIS STUDIO 1
         - 48-104 Shop Skills
         - 62-104 Design Ethics & Social Justice in Architecture
@@ -110,11 +110,9 @@
     - tag: Cog Sci
       description: 88-120 Reason, Passion and Cognition
     - tag: GenEd
-      description: 
+      description:
         - 76-100 Reading and Writing in an Academic Context
         - 79-295 Legacies of Fascism and Anti-Fascism
-
-
 # - title: Experience
 #   type: time_table
 #   contents:
