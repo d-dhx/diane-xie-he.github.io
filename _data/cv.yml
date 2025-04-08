@@ -57,8 +57,8 @@
   contents:
     - tag: CS
       description: 
-        - 15-150 Principles of Functional Programming 
-        - 15-251 Great Ideas in Theoretical Computer Science
+        - '<a href="https://www.cs.cmu.edu/~15150/" target="_blank">15-150 Principles of Functional Programming </a>'
+        - '<a href="https://www.pandanotes.org/servers/cs251s24/" target="_blank"> 15-251 Great Ideas in Theoretical Computer Science </a>'
     - tag: Math
       description: 21-259 Calculus in Three Dimensions
     - tag: Archi

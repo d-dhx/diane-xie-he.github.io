@@ -27,7 +27,7 @@
     padding: 20px;
     text-decoration: none;
     color: #fff;
-    background: #67add0;
+    background: #666666;
     border-radius: 5px;
     row-gap: 10px;
     width: 80%; /* Adjust the width of each item to make them visually balanced */
@@ -41,7 +41,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .toc-item:hover {
-  background-color: #67add0;
+  background-color: #666666;
   color: #fff;
   transform: scale(1.05);
   cursor: pointer;
@@ -253,20 +253,80 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border-radius: 32px; 
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.01); // subtle hover pop
+  }
 
   .card-img {
-    width: 100%;
-    padding-top: 1.25rem;
+    width: 110%;
+    height: 300px; 
+    object-fit: cover;
+    object-position: center; 
+    display: block;
   }
 
   .card-title {
     color: var(--global-text-color);
+    text-align: center;
+    font-family: 'Playfair Display', serif; 
+    margin-top: 1rem;
+  }
+
+  .card-text {
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 1rem;
+    color: #333;
+    text-align: start;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
   }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    padding: 60px;
+  }
+
 }
+
+.card-title::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #111;
+  margin: 0.5rem auto 0;
+}
+//gallery 
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #333;
+}
+
 
 // Citation
 

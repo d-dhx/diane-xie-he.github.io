@@ -39,3 +39,14 @@ figcaption {
     vertical-align: middle;
     font-size: $caption-font-size;
 }
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+    padding: $img-spacing;
+    padding-bottom: 1rem;
+  }
+  
+ 
