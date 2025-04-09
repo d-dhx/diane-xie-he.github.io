@@ -17,6 +17,10 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -80,4 +84,14 @@ layout: default
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
   </article>
+
+  <!-- Loader script -->
+  <script>
+    window.addEventListener('load', function () {
+      const loader = document.getElementById('loader');
+      loader.style.opacity = 0;
+      setTimeout(() => (loader.style.display = 'none'), 400); // match CSS transition
+    });
+  </script>
+  <script src="{{ '/assets/js/loader.js' | relative_url }}"></script>
 </div>
