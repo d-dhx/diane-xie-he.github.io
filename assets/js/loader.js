@@ -1,0 +1,1 @@
+window.addEventListener("load",function(){const e=document.getElementById("loader");setTimeout(()=>{e.classList.add("fade-out"),setTimeout(()=>{e.style.display="none"},2e3)},5e3)});
