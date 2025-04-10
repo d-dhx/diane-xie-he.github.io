@@ -8,6 +8,7 @@ nav_order: 3
 display_categories: [1D, 2D, 3D]
 horizontal: false
 ---
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
