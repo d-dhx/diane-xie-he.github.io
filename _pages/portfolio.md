@@ -8,7 +8,6 @@ nav_order: 3
 display_categories: [1D, 2D, 3D]
 horizontal: false
 ---
-
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
@@ -39,6 +38,7 @@ horizontal: false
 
 {% else %}
 
+<!-- row row-cols-1 row-cols-md-3 -->
 <!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}

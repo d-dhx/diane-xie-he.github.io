@@ -260,14 +260,17 @@ ul.task-list input[type="checkbox"] {
   background-color: var(--global-card-bg-color);
   border-radius: 32px;
   overflow: hidden;
+  //max-width: calc(20% - 1rem);
+  scroll-snap-align: start;
   padding: 0;
   margin: 0;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   align-items: center;
   transition: transform 0.3s ease;
   &:hover {
-    transform: scale(1.01); // subtle hover pop
+    transform: scale(1.01);
   }
 
   .card-img {
@@ -303,10 +306,30 @@ ul.task-list input[type="checkbox"] {
 
   .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
     padding: 60px;
   }
+
+//   .card-scroll-container {
+//     display: flex;
+//     overflow-x: auto;
+//     flex-wrap: wrap;    
+//     scroll-snap-type: x mandatory;
+//     scroll-behavior: smooth;
+//     scrollbar-width: thin;
+//     padding: 1rem;
+//     gap: 1rem;
+//   }
+  
+//   .card-scroll-container::-webkit-scrollbar {
+//     height: 8px;
+//   }
+  
+//   .card-scroll-container::-webkit-scrollbar-thumb {
+//     background: rgb(255, 9, 9);
+//     border-radius: 4px;
+//   }
 }
 
 .card-title::after {

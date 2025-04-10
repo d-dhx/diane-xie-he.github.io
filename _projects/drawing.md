@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Drawing
-description: Architectural freehand drawing in first-year drawing class
+title: Perspective
+description: Architectural freehand drawings emphasize the use of perspective to convey spatial depth and structure.
 img: assets/img/projects/drawing/drawing_1.png
 importance: 2
 category: 2D

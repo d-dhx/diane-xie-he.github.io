@@ -20,11 +20,10 @@ Here’s a collection of watercolor drawings displayed in a flexible grid layout
     <div class="col-md-4 mb-4">
       {% include figure.liquid loading="eager" path="assets/img/projects/water_color/7.png" title="Drawing 3" class="img-fluid rounded shadow-sm" %}
     </div>
-  </div>
-
-<div class="caption">
-  From left to right: GHC helix, Baker Hall Hallway, Baker Hall stair 2.
 </div>
+  <div class="caption">
+    From left to right: GHC helix, Baker Hall Hallway, Baker Hall stair 2.
+  </div>
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">

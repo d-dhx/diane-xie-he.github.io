@@ -90,4 +90,4 @@ This was one of the most challenging yet rewarding parts. It taught me how light
 ---
 
 You can find the full code and writeup here:  
-👉 [Scotty3D on GitHub](https://github.com/d-dhx/MyScotty3D)
+👉 [Scotty3D on GitHub](https://github.com/CMU-Graphics/Scotty3D)
