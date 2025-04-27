@@ -10,4 +10,7 @@ children:
   - title: divider
   - title: Coursework
     permalink: /coursework/
+  - title: divider
+  - title: Museum network
+    permalink: /museum_network/
 ---
